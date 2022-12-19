@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDO List</title>
+    <link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+    <script src="./js/recuperarDatos.js"> </script>
+
+    <div class = "div_Menu">
+        <a> TO-DO List</a>
+    </div>
+    
+    <br>
+
+    <div class = "div_contenidoWeb">
+        <!-- Menu -->
+        <div> 
+            <ul class = "ul_Menu-Secundario">
+                <li class = "li_Menu-Secundario"> <a class="active" href="index.html">Tareas</a></li>
+            </ul>
+        </div>
+
+        <div class = "todo-list">
+
+            <div class = "barraTodo">
+                <form>
+                    <input type="text" placeholder="Agregar tarea...">
+                    <button class="btn-add">+</button>
+                </form>
+            </div>
+            <div class = "li-contenedor">
+                <ul class = "ul-tareas">
+
+                </ul>
+            </div>
+            <div class = "sintareas">
+                <p> No tienes tareas pendientes.</p>
+            </div>
+
+        </div> 
+
+    </div>
+
+    <script src="./js/main.js"> </script>
+
+</body>
+</html>
